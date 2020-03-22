@@ -6,7 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import javax.sound.midi.Soundbank;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.URI;
 import java.sql.SQLOutput;
 import java.util.logging.Logger;
@@ -80,4 +82,6 @@ public class hdfs {
             System.out.println(status.isDirectory()?"这是一个目录":"这是文件");
         }
     }
+
+
 }
